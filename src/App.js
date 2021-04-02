@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import {Header} from "./components/layout/Header"
+import {Footer} from "./components/layout/Footer"
+import {ScrollToTop} from "./components/ScrollToTop"
+// import classes from "./App.module.sass";
+
+// import {Home} from "./pages/Home"
+// import {Contacts} from "./pages/Contacts"
+// import {About} from "./pages/About"
+// import {NotFound} from "./pages/NotFound"
+// import {Film} from "./pages/Film"
+
+import logo from './images/logo.svg';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+        <Router>
+          <ScrollToTop />
+          <Header logo={logo}/>
+          <main>
+            <Switch>
+              {/*<Route exact path="/" component={Home} />*/}
+              {/*<Route exact path="/:page" component={Home} />*/}
+              {/*<Route path="/about" component={About} />*/}
+              {/*<Route path="/contacts" component={Contacts} />*/}
+              {/*<Route path="/film/:id" component={Film} />*/}
+              {/*<Route component={NotFound}/>*/}
+            </Switch>
+          </main>
+          <Footer/>
+        </Router>
+      </>
   );
 }
 
