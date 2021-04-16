@@ -1,0 +1,84 @@
+$animation-speed: 0.25s
+
+.MuiInputBase-input
+  padding: 11px 0 12px!important
+
+.MuiFormLabel-root
+  color: #252525!important
+  opacity: 0.4!important
+  font-size: 16px!important
+  line-height: 1.5!important
+  font-family: PFBagueSansPro!important
+  &.Mui-focused
+    color: #1969df!important
+    opacity: 1 !important
+  &.Mui-error
+    color: #ff4c4c!important
+    opacity: 1 !important
+.MuiInput-underline
+  &:before
+    border-bottom: 1px solid #444444!important
+  &:hover
+    &:not(.Mui-disabled)
+      &:before
+        border-bottom: 1px solid #444444!important
+  &:after
+    border-bottom: 2px solid #1969df!important
+
+.MuiInput-underline.Mui-error:after
+  border-bottom: 2px solid #ff4d4d!important
+.form
+  max-width: 764px
+  margin: 0 auto
+  padding: 80px 0 120px
+  @media (max-width: 767px)
+    padding: 40px 0 80px
+  h2
+    text-align: center
+    margin-bottom: 47px
+    @media (max-width: 575px)
+      text-align: left
+      margin-bottom: 30px
+  form
+    & > div
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      & + div
+        margin-top: 16px
+        @media (max-width: 767px)
+          margin-top: 8px
+      & > div
+        width: calc(50% - 24px)
+        @media (max-width: 767px)
+          width: 100%
+          & + div
+            margin-top: 8px
+      & .MuiFormControl-root
+        width: 100%
+
+    & .form_footer
+      margin-top: 37px
+      display: flex
+      align-items: center
+      @media (max-width: 575px)
+        margin-top: 25px
+        display: block
+      div
+        margin: 0
+        &:first-child
+          max-width: 290px
+          span
+            font-size: 12px
+            line-height: 16px
+            letter-spacing: 0.4px
+            display: block
+            a
+              display: inline
+              font-size: 12px
+              line-height: 16px
+              letter-spacing: 0.4px
+        &:last-child
+          width: 156px
+          @media (max-width: 575px)
+            margin-top: 25px

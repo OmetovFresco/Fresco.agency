@@ -1,0 +1,121 @@
+$animation-speed: 0.25s
+
+.home
+  &_header
+    width: 100%
+    position: relative
+    min-height: calc(100vh - 86px)
+    display: flex
+    align-items: center
+    background: #fafafa
+    @media (max-width: 1199px)
+      min-height: calc(100vh - 81px)
+    @media (max-width: 767px)
+      min-height: calc(100vh - 56px)
+    @media (max-width: 575px)
+      background: url('./bg-main.jpeg') no-repeat center
+      background-size: cover
+    video
+      position: absolute
+      top: 0
+      left: 0
+      bottom: 0
+      width: 100%
+      filter: grayscale(1)
+      height: 100%
+      object-fit: cover
+      //opacity: 0.985
+      z-index: 0
+      @media (max-width: 575px)
+        opacity: 0
+    &__inner
+      position: relative
+      //top: 50%
+      //left: 50%
+      right: 0
+      z-index: 1
+      max-width: 1112px
+      width: 100%
+      //transform: translate(-50%, -50%)
+      padding-bottom: 10%
+      @media (max-width: 1199px)
+        //left: 0
+        //right: 0
+      h1
+        letter-spacing: 1px
+        margin-bottom: 72px
+        font-family: 'PFBagueSansPro', sans-serif
+      .intro__btn
+        display: block
+        img
+          display: block
+          width: 30px
+          height: 30px
+
+    .arrow_down
+      position: absolute
+      bottom: 0
+      left: 50%
+      transform: translateX(-50%)
+      z-index: 3
+      padding: 24px
+      cursor: pointer
+      svg
+        display: block
+        width: 26px
+        height: 26px
+        transition: all $animation-speed
+      &:hover
+        svg
+          fill: #1969df
+    .buttons_line
+      width: 500px
+      display: grid
+      grid-template-columns: auto auto auto
+      grid-column-gap: 55px
+      @media (max-width: 575px)
+        width: 100%
+        grid-template-columns: initial
+        display: flex
+        flex-wrap: wrap
+      & > .btn
+        @media (max-width: 575px)
+          margin-bottom: 32px
+      & > span
+        line-height: 42px
+        @media (max-width: 575px)
+          opacity: 0
+          width: 100%
+          height: 0
+      & > a
+        @media (max-width: 575px)
+          &:last-child
+            margin: 0
+
+  &_about
+    padding: 120px 0
+    @media (max-width: 767px)
+      padding: 40px 0
+
+  &_interactive
+    padding: 130px 0 80px
+    @media (max-width: 767px)
+      padding: 40px 0
+    &__inner
+      width: 100%
+      max-width: 300px
+      margin: 0 auto
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      align-items: center
+      &__item
+        &:nth-child(1),
+        &:nth-child(3)
+          width: 45px
+          position: relative
+        &:nth-child(2)
+          width: 90px
+        img
+          display: block
+          width: 100%

@@ -1,38 +1,44 @@
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import {Header} from "./components/layout/Header"
-import {Footer} from "./components/layout/Footer"
+import {Header} from "./components/Header"
+import {Footer} from "./components/Footer"
 import {ScrollToTop} from "./components/ScrollToTop"
 // import classes from "./App.module.sass";
 
-// import {Home} from "./pages/Home"
-// import {Contacts} from "./pages/Contacts"
-// import {About} from "./pages/About"
-// import {NotFound} from "./pages/NotFound"
-// import {Film} from "./pages/Film"
+import {Home} from "./pages/Home"
+import {Case} from "./pages/Case"
+import {Contacts} from "./pages/Contacts"
 
 import logo from './images/logo.svg';
+import {useEffect} from "react";
 
 function App() {
 
-  return (
-      <>
-        <Router>
-          <ScrollToTop />
-          <Header logo={logo}/>
-          <main>
-            <Switch>
-              {/*<Route exact path="/" component={Home} />*/}
-              {/*<Route exact path="/:page" component={Home} />*/}
-              {/*<Route path="/about" component={About} />*/}
-              {/*<Route path="/contacts" component={Contacts} />*/}
-              {/*<Route path="/film/:id" component={Film} />*/}
-              {/*<Route component={NotFound}/>*/}
-            </Switch>
-          </main>
-          <Footer/>
-        </Router>
-      </>
-  );
+    useEffect(() => {
+        const AOS = require("aos");
+        AOS.init({
+            once: true,
+        });
+    }, [])
+
+    return (
+        <div className="bodyWrapper">
+            <Router>
+                <ScrollToTop />
+                <Header logo={logo}/>
+                <main>
+                    <Switch>
+                        <Route exact path="/" component={Home} />
+                        <Route exact path="/home" component={Home} />
+                        <Route path="/case" component={Case} />
+                        <Route path="/contacts" component={Contacts} />
+                        {/*<Route path="/film/:id" component={Film} />*/}
+                        {/*<Route component={NotFound}/>*/}
+                    </Switch>
+                </main>
+                <Footer/>
+            </Router>
+        </div>
+    );
 }
 
 export default App;
