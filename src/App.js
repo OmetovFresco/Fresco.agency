@@ -7,6 +7,7 @@ import {ScrollToTop} from "./components/ScrollToTop"
 import {Home} from "./pages/Home"
 import {Case} from "./pages/Case"
 import {Contacts} from "./pages/Contacts"
+import {Projects} from "./pages/Projects"
 
 import logo from './images/logo.svg';
 import {useEffect} from "react";
@@ -31,6 +32,7 @@ function App() {
                         <Route exact path="/home" component={Home} />
                         <Route path="/case" component={Case} />
                         <Route path="/contacts" component={Contacts} />
+                        <Route path="/projects" component={Projects} />
                         {/*<Route path="/film/:id" component={Film} />*/}
                         {/*<Route component={NotFound}/>*/}
                     </Switch>

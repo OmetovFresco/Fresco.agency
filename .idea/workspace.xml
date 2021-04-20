@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="706673e9-c88d-43c4-92a5-0eb706e2d6fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/fresco-react.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.module.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Form.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Case.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Contacts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/assets/Case.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/assets/Contacts.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/assets/moscow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/assets/tomsk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/assets/wave-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Projects.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/assets/Projects.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/assets/bg-projects.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/assets/projects/npc-card_cover.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/assets/video_projects.webm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Footer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Header.module.sass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +76,7 @@
       <workItem from="1617792098594" duration="11054000" />
       <workItem from="1617862170625" duration="38820000" />
       <workItem from="1618290310890" duration="12631000" />
-      <workItem from="1618546344937" duration="7603000" />
+      <workItem from="1618546344937" duration="16780000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,99 @@
+$animation-speed: 0.25s
+
+.title_video_header
+  background: url('./bg-projects.jpeg') no-repeat center
+
+.projects_list
+  display: flex
+  flex-wrap: wrap
+  max-width: 1080px
+  width: 100%
+  margin: 0 auto
+  .project
+    width: calc(100% / 3)
+    height: 500px
+    background: #f4f4f4
+    position: relative
+    .hover
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      z-index: 1
+      .category,
+      .year
+        position: absolute
+        top: 24px
+        z-index: 1
+        font-size: 14px
+        text-transform: uppercase
+        color: #ffffff
+        line-height: 1.14
+        letter-spacing: 0.75px
+        font-weight: 500
+        opacity: 0
+        transition: all $animation-speed ease-in-out
+      .category
+        left: 24px
+      .year
+        right: 24px
+      .tag_list
+        position: absolute
+        left: 0px
+        right: 0px
+        bottom: 19px
+        z-index: 1
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        opacity: 0
+        transition: all $animation-speed ease-in-out
+        span
+          display: block
+          font-size: 16px
+          line-height: 1.5
+          color: #ffffff
+          text-transform: lowercase
+          margin: 0 22px
+      .bg
+        position: absolute
+        left: 0
+        right: 0
+        bottom: 0
+        top: 0
+        z-index: 0
+        opacity: 0
+        transition: all $animation-speed ease-in-out
+    .cover
+      position: absolute
+      left: 0
+      right: 0
+      bottom: 0
+      top: 0
+      background-size: cover
+      background-position: center
+      z-index: 0
+    .name
+      position: absolute
+      left: 24px
+      right: 24px
+      bottom: 24px
+      font-size: 48px
+      line-height: 1.17
+      letter-spacing: 1px
+      color: #ffffff
+      text-align: center
+      z-index: 2
+      transition: all $animation-speed ease-in-out
+    &:hover
+      .name
+        bottom: 50%
+        transform: translateY(50%)
+      .hover
+        .category,
+        .year,
+        .tag_list
+          opacity: 1
+        .bg
+          opacity: 1
