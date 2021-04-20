@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Fresco.agency/static/css/main.9f5d4490.chunk.css",
+    "main.js": "/Fresco.agency/static/js/main.32c28014.chunk.js",
+    "main.js.map": "/Fresco.agency/static/js/main.32c28014.chunk.js.map",
+    "runtime-main.js": "/Fresco.agency/static/js/runtime-main.c1ff69e3.js",
+    "runtime-main.js.map": "/Fresco.agency/static/js/runtime-main.c1ff69e3.js.map",
+    "static/css/2.658248ec.chunk.css": "/Fresco.agency/static/css/2.658248ec.chunk.css",
+    "static/js/2.57ef8ab3.chunk.js": "/Fresco.agency/static/js/2.57ef8ab3.chunk.js",
+    "static/js/2.57ef8ab3.chunk.js.map": "/Fresco.agency/static/js/2.57ef8ab3.chunk.js.map",
+    "index.html": "/Fresco.agency/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/Fresco.agency/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.9f5d4490.chunk.css.map": "/Fresco.agency/static/css/main.9f5d4490.chunk.css.map",
+    "static/js/2.57ef8ab3.chunk.js.LICENSE.txt": "/Fresco.agency/static/js/2.57ef8ab3.chunk.js.LICENSE.txt",
+    "static/media/index.sass": "/Fresco.agency/static/media/Spectral-Regular.7e10b646.woff",
+    "static/media/Home.module.sass": "/Fresco.agency/static/media/bg-main.3cb747e3.jpeg",
+    "static/media/Projects.sass": "/Fresco.agency/static/media/bg-projects.7fc53e89.jpeg",
+    "static/media/interactive2.758c898c.png": "/Fresco.agency/static/media/interactive2.758c898c.png",
+    "static/media/logo.272b70a7.svg": "/Fresco.agency/static/media/logo.272b70a7.svg",
+    "static/media/moscow.76b97a7c.svg": "/Fresco.agency/static/media/moscow.76b97a7c.svg",
+    "static/media/npc-card_cover.086ee6fd.jpeg": "/Fresco.agency/static/media/npc-card_cover.086ee6fd.jpeg",
+    "static/media/sprite.symbol.2ddc2f42.svg": "/Fresco.agency/static/media/sprite.symbol.2ddc2f42.svg",
+    "static/media/tomsk.c3593a0c.svg": "/Fresco.agency/static/media/tomsk.c3593a0c.svg",
+    "static/media/video3.516f0b31.webm": "/Fresco.agency/static/media/video3.516f0b31.webm",
+    "static/media/video_projects.9ccbd8ed.webm": "/Fresco.agency/static/media/video_projects.9ccbd8ed.webm"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1ff69e3.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.57ef8ab3.chunk.js",
+    "static/css/main.9f5d4490.chunk.css",
+    "static/js/main.32c28014.chunk.js"
+  ]
+}
